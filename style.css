@@ -1,0 +1,58 @@
+/*defult css*/
+*{
+    box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+body{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    text-decoration: none;
+    min-height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60);
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container{
+    background-color: #fff;
+    width: 400px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(100,100,100, .1);
+    width: 600px;
+    max-width: 100%;
+    
+}
+.quiz-header{
+    padding: 4rem;
+}
+h2{
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+}
+ul li label{
+    cursor: pointer;
+}
+ul li{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+button{
+    background-color: #8e44ad;
+    border: none;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 1.3rem;
+    border-radius: 0 0 5px 5px;
+}
+button:hover{
+    background-color: #bd63e1;
+}
